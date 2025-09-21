@@ -31,7 +31,7 @@ interface Product {
   ],
   template: `
     <div
-      class="bg-surface-0 dark:bg-surface-900 p-6 rounded-xl border border-surface-200 dark:border-surface-700 flex flex-col gap-4"
+      class="bg-surface-0 dark:bg-surface-900 p-6 rounded-xl flex flex-col gap-4"
     >
       <div
         class="flex sm:items-center justify-between mb-4 sm:flex-row flex-col gap-2"

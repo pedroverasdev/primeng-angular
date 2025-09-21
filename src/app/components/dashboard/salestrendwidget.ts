@@ -10,7 +10,7 @@ import { debounceTime, Subscription } from 'rxjs';
   imports: [CommonModule, ChartModule],
   template: `
     <div
-        class="bg-surface-0 dark:bg-surface-900 p-6 rounded-xl border border-surface-200 dark:border-surface-700 flex flex-col gap-4"
+        class="bg-surface-0 dark:bg-surface-900 p-6 rounded-xl flex flex-col gap-4"
     >
         <div class="flex flex-col gap-4">
             <div class="flex items-center justify-between">

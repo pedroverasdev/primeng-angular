@@ -11,7 +11,7 @@ import { CommonModule } from '@angular/common';
   imports: [CommonModule, ButtonModule, StyleClassModule, AppConfig],
   template: `
     <div
-      class="bg-surface-0 dark:bg-surface-900 p-6 rounded-2xl max-w-7xl mx-auto border border-surface-200 dark:border-surface-700 w-full"
+      class="bg-surface-0 dark:bg-surface-900 p-6 rounded-2xl mx-auto w-full"
     >
       <div class="flex justify-between items-center">
         <div class="flex gap-3 items-center">
@@ -127,19 +127,6 @@ import { CommonModule } from '@angular/common';
           >
         </div>
         <div class="flex items-center gap-2">
-          <button
-            type="button"
-            class="cursor-pointer w-10 h-10 flex items-center justify-center rounded-full hover:bg-surface-100 dark:hover:bg-surface-800 transition-all text-surface-900 dark:text-surface-0 focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-surface-0 dark:focus-visible:ring-offset-surface-950"
-            (click)="toggleDarkMode()"
-          >
-            <i
-              class="pi text-base"
-              [ngClass]="{
-                'pi-moon': isDarkMode(),
-                'pi-sun': !isDarkMode()
-              }"
-            ></i>
-          </button>
           <div class="relative">
             <p-button
               pStyleClass="@next"
